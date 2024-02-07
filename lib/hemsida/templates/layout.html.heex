@@ -1,0 +1,33 @@
+<html class="bg-slate-100 text-slate-900">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title><%= assigns[:title] %> - Lagunens Kappseglingsklubb</title>
+  <link rel="stylesheet" href="/assets/app.css" />
+</head>
+<body class="flex h-full justify-items-stretch items-stretch">
+<header class="bg-sky-800 text-sky-100 mb-8 sticky top-0">
+  <div class="container mx-auto">
+  <nav class="p-4 font-bold">
+    <ul class="flex flex-col flex-wrap gap-4">
+      <li><a class="uppercase" href="/">Lagunens kappseglingsklubb</a></li>
+      <li><a href="/onsdags-seglingar.html">Onsdagsseglingar</a></li>
+      <li><a href="/medlemskap.html">Medlemskap</a></li>
+      <li><a href="/kontakt.html">Kontakt</a></li>
+      <li><a href="https://lagunen-kappsegling.s3.nl-ams.scw.cloud/resultat-2023.html" target="_blank">Resultat 2023</a></li>
+    </ul>
+  </nav>
+  </div>
+</header>
+<main class="grow">
+  <div class="container mx-auto px-4">
+    <%= render_slot @inner_block %>
+  </div>
+</main>
+<footer class="bg-slate-900 text-slate-600 p-4">
+  <div class="container mx-auto text-center">
+    Lagunens kappseglingklubb &copy; 2024
+  </div>
+</footer>
+</body>
+</html>
