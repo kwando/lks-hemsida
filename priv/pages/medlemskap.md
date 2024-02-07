@@ -3,16 +3,15 @@
 }
 ---
 # Medlemskap
-Vill du bli medlem så skicka ett mail till **lagunenkappseglingsklubb at gmail.com** innehållande:
+Att vara medlem i Lagunens Kappseglingsklubb är inget krav för att delta i våra onsdagsseglingar.
+Men om du vill delta i sanktionerade seglingar av Svenska Segelförbundet, t.ex. Saltholm Runt, måste du vara m
+edlem i en officiell kappseglingsklubb. Som medlem får du även rösträtt på årsmötet och stöttar klubbens verksamhet.
+
+För att bli medlem, skicka ett mail till lagunenkappseglingsklubb@gmail.com med följande uppgifter:
 
 - Namn
-- Adress
-- E-post adress
+- Personnummer
+- Mailadress
 - Telefonnummer
 
-Det är inget krav att vara medlem för att kunna segla på våra onsdagsseglingar, men om man vill delta i en
-segling som är sanktionerad av Svenska Segelförbundet (till exempel Saltholm Runt, DM eller SM) måste man
-vara medlem i en officiell kappseglingsklubb.
-
-Medlemskap i kappseglingsklubben kostar 100:- och betalning kan göras till Bankgiro 460-4369,
-märk betalningen med ditt namn.
+Betala sedan medlemsavgiften på 100 kr till bankgiro 460-4369. Märk betalningen med ditt namn.
