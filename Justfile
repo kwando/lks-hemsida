@@ -8,7 +8,7 @@ build:
   mix site.build
 
 clean:
-  rm -rf output/*
+  rm -rf output
 
 deploy: build
   fly deploy

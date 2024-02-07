@@ -22,7 +22,7 @@ defmodule Hemsida do
 
   @output_dir "./output"
   def build() do
-    File.mkdir!(@output_dir)
+    File.mkdir_p!(@output_dir)
 
     render_file(
       "index.html",

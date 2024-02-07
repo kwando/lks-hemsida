@@ -18,6 +18,8 @@ jobs:
   build:
     name: Build and test
     runs-on: ubuntu-latest
+    env:
+      FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
 
     steps:
       - uses: actions/checkout@v3
@@ -38,3 +40,6 @@ jobs:
         run: mix test
       - name: Build
         run: mix site.build
+      - uses: superfly/flyctl-actions@1.1
+        with:
+          args: "deploy"
