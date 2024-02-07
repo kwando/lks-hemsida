@@ -5,10 +5,8 @@ defmodule Hemsida.Renderer do
 
   def post(assigns) do
     ~H"""
-    <.layout title={@post.title}>
-      <.page_title><%= @post.title %></.page_title>
-      <%= @post.date %> <%= @post.author %>
-      <%= {:safe, @post.content} %>
+    <.layout title={@post.title} url={@post.output_path}>
+      <.article post={@post} />
     </.layout>
     """
   end

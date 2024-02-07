@@ -1,0 +1,31 @@
+<script type="text/javascript">
+  function toggleMenu() {
+    const menu = document.getElementById("menu");
+    if(menu){
+      menu.classList.toggle("hidden");
+    }
+  }
+  window.addEventListener('DOMContentLoaded', (event) => {
+    const menuToggler = document.getElementById("menu-toggler");
+    menuToggler.addEventListener("click", toggleMenu);
+  });
+</script>
+<div class="container mx-auto">
+  <nav class="sm:px-4">
+
+    <div class="flex justify-between p-4">
+      <div class="text-center sm:text-left sm:text-2xl font-bold">
+        <a class="uppercase" href="/">Lagunens kappseglingsklubb</a>
+      </div>
+      <button id="menu-toggler" class="sm:hidden"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+      </svg></button>
+    </div>
+    <ul class="sm:flex flex-col sm:flex-row flex-wrap select-none hidden" id="menu">
+      <li><a href="/onsdags-seglingar.html" class={["navbar-link", (if @url == "onsdags-seglingar", do: "active")]}>Onsdagsseglingar</a></li>
+      <li><a href="/medlemskap.html"  class={["navbar-link", (if @url == "medlemskap", do: "active")]}>Medlemskap</a></li>
+      <li><a href="/kontakt.html" class={["navbar-link", (if @url == "kontakt", do: "active")]}>Kontakt</a></li>
+      <li><a href="https://lagunen-kappsegling.s3.nl-ams.scw.cloud/resultat-2023.html" class="navbar-link" target="_blank">Resultat 2023</a></li>
+    </ul>
+  </nav>
+</div>

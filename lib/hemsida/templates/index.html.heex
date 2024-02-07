@@ -1,15 +1,8 @@
 
-<.layout title="Startidan">
+<.layout title="Startidan" url="/" >
   <.page_title>Välkommen till Lagunens kappseglingsklubb</.page_title>
   <img src="/images/DJI_0293.jpeg" class="my-4 w-full rounded-xl object-contain h-max-2" />
 
-  <h2 class="my-2 text-lg">Tidigare inlägg</h2>
-  <ul>
-    <li :for={post <- @posts}>
-      <a href={post.output_path}>
-        <span class="tabular-nums"><%= post.date %></span>
-        <%= post.title %>
-      </a>
-    </li>
-  </ul>
+  <h2 class="my-2 text-lg font-semibold">Nyheter</h2>
+  <.article :for={post <- @posts} post={post} />
 </.layout>
