@@ -1,9 +1,11 @@
 %{
-  title: "Onsdagsseglingar"
+title: "Onsdagsseglingar"
 }
+
 ---
 
 # Onsdagsseglingar
+
 <figure><img src="/images/DJI_0614-1024x609.jpg" /><figcaption>Foto: Fredric Johansson, kappseglingsklubben</figcaption></figure>
 
 Vi arrangerar onsdagsseglingar och då använder vi SRS för att beräkna resultaten, alla som vill segla är
@@ -14,13 +16,14 @@ Anmälningsavgiften är SEK 300 och betalas via Bankgiro 460-4369 ange namn elle
 **OBS! Tänk på att anmäla dig _innan_ du börjar segla så den som står i tornet kan
 identifiera dig eller båten. Är du inte anmäld kommer du inte att få ett resultat.**
 
-
 ### Gastpool
+
 Det finns en Facebookgrupp för båtar och gastar som söker varandra, dvs en gastpool.
 
 Gå till [Lagunens kappseglingsklubb Gastpool](https://www.facebook.com/groups/1460194044313388) och registrera dig vid intresse.
 
 ## Anmälan
+
 Anmälan görs digital på denna länken [Anmälan till onsdagseglingar](https://lkk-signup.fly.dev).
 
 För att delta i våra klubbseglingar behöver du anmäla dig i förväg.
@@ -29,10 +32,12 @@ Om du vill prova på segling kan du delta i två deltagarseglingar innan du beh�
 Har du några frågor eller undrar över något kontakta då lagunenkappseglingsklubb@gmail.com eller någon i klubbens styrelse.
 
 ### Länkar
+
 - [Avståndstabell](https://lagunen-kappsegling.s3.nl-ams.scw.cloud/Avst%C3%A5nd_2020.pdf)
-- [Seglingsföreskrifter (2023)](https://lagunen-kappsegling.s3.nl-ams.scw.cloud/Seglingsf%C3%B6reskrifter-2023.pdf)
+- [Seglingsföreskrifter (2024)](https://lagunen-kappsegling.s3.nl-ams.scw.cloud/Seglingsf%C3%B6reskrifter-2024.pdf)
 - [Banbeskrivning](https://lagunen-kappsegling.s3.nl-ams.scw.cloud/Karta%20_Onsdagscup_2020.pdf)
 - [Torntjänst](/torntjanst.html)
 - [Torntjänstutbildning](/kontakt.html)
 - [Handbok för automatisk startutrustning](/handbok-for-lagunens-automatiska-startutrustning.html)
 - [Resultat 2023](https://lagunen-kappsegling.s3.nl-ams.scw.cloud/resultat-2023.htm)
+- [Seglingsföreskrifter (2023)](https://lagunen-kappsegling.s3.nl-ams.scw.cloud/Seglingsf%C3%B6reskrifter-2023.pdf)
