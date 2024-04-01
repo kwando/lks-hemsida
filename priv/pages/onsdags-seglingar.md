@@ -24,7 +24,7 @@ Gå till [Lagunens kappseglingsklubb Gastpool](https://www.facebook.com/groups/1
 
 ## Anmälan
 
-Anmälan görs digital på denna länken [Anmälan till onsdagseglingar](https://lkk-signup.fly.dev).
+**Anmälan för 2024 års onsdagsseglingar kommer snart!**
 
 För att delta i våra klubbseglingar behöver du anmäla dig i förväg.
 Om du vill prova på segling kan du delta i två deltagarseglingar innan du behöver betala anmälningsavgiften på 300 kr. Om avgiften inte betalas, tas du bort från resultatlistan.
