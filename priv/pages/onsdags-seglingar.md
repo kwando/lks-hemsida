@@ -16,12 +16,6 @@ Anmälningsavgiften är SEK 300 och betalas via Bankgiro 460-4369 ange namn elle
 **OBS! Tänk på att anmäla dig _innan_ du börjar segla så den som står i tornet kan
 identifiera dig eller båten. Är du inte anmäld kommer du inte att få ett resultat.**
 
-### Gastpool
-
-Det finns en Facebookgrupp för båtar och gastar som söker varandra, dvs en gastpool.
-
-Gå till [Lagunens kappseglingsklubb Gastpool](https://www.facebook.com/groups/1460194044313388) och registrera dig vid intresse.
-
 ## Anmälan
 
 **Anmälan för 2024 års onsdagsseglingar kommer snart!**
