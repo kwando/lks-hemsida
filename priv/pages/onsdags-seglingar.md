@@ -28,7 +28,7 @@ Har du några frågor eller undrar över något kontakta då lagunenkappseglings
 ### Länkar
 
 - [Avståndstabell](https://lagunen-kappsegling.s3.nl-ams.scw.cloud/Avst%C3%A5nd_2020.pdf)
-- [Seglingsföreskrifter (2024)](https://lagunen-kappsegling.s3.nl-ams.scw.cloud/Seglingsf%C3%B6reskrifter-2024.pdf)
+- [Seglingsföreskrifter (2024)](https://lkk-files.fly.storage.tigris.dev/Seglingsf%C3%B6reskrifter-2024.pdf)
 - [Banbeskrivning](https://lagunen-kappsegling.s3.nl-ams.scw.cloud/Karta%20_Onsdagscup_2020.pdf)
 - [Torntjänst](/torntjanst.html)
 - [Torntjänstutbildning](/kontakt.html)
