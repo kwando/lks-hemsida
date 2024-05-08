@@ -30,6 +30,10 @@ Har du några frågor eller undrar över något kontakta då lagunenkappseglings
 - [Avståndstabell](https://lagunen-kappsegling.s3.nl-ams.scw.cloud/Avst%C3%A5nd_2020.pdf)
 - [Seglingsföreskrifter (2024)](https://lkk-files.fly.storage.tigris.dev/Seglingsf%C3%B6reskrifter-2024.pdf)
 - [Banbeskrivning](https://lagunen-kappsegling.s3.nl-ams.scw.cloud/Karta%20_Onsdagscup_2020.pdf)
+- [Instruktioner för After Sail](https://lkk-files.fly.storage.tigris.dev/After%20sail.pdf)
+
+### Gamla länkar
+
 - [Torntjänst](/torntjanst.html)
 - [Torntjänstutbildning](/kontakt.html)
 - [Handbok för automatisk startutrustning](/handbok-for-lagunens-automatiska-startutrustning.html)
