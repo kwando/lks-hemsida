@@ -16,8 +16,9 @@ defmodule Hemsida do
   end
 
   def latest_posts() do
-    Enum.take(@posts, 5)
+    @posts
     |> Enum.reverse()
+    |> Enum.take(5)
   end
 
   @output_dir "./output"
