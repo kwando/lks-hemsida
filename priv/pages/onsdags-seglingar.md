@@ -27,7 +27,8 @@ Har du några frågor eller undrar över något kontakta då lagunenkappseglings
 
 ### Länkar
 
-- [Resultat 2024](https://lks.fly.dev)
+- [Resultat 2024 Höstcupen](https://lks.fly.dev)
+- [Resultat 2024 Onsdagscupen](/resultat/2024-onsdagscupen.html)
 - [Avståndstabell](https://lagunen-kappsegling.s3.nl-ams.scw.cloud/Avst%C3%A5nd_2020.pdf)
 - [Seglingsföreskrifter (2024)](https://lkk-files.fly.storage.tigris.dev/Seglingsf%C3%B6reskrifter-2024_v2.pdf)
 - [Banbeskrivning](https://lagunen-kappsegling.s3.nl-ams.scw.cloud/Karta%20_Onsdagscup_2020.pdf)
