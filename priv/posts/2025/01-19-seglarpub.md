@@ -1,5 +1,5 @@
 %{
-title: "Seglarpub 12/2",
+title: "Seglarpub 13/2",
 author: "Anna Engblom"
 }
 
@@ -10,7 +10,7 @@ author: "Anna Engblom"
 Skepp O' Skoj!
 
 Vi i styrelsen har rensat bort några sjögräs, torkat av tävlingssegeln och flatat ut lite bottnar och är nu redo för att dra igång ett nytt år – och det gör vi såklart med en ordentlig SEGLARPUB!
-Onsdagen den 12 februari kl. 18:30 i klubbhuset.
+Onsdagen den 13 februari kl. 18:30 i klubbhuset.
 
 __KVÄLLENS TEMA__
 Vi snackar om allt från den gångna säsongen (och appens roll för chokladfördelningen) till den kommande säsongens planer, spännande kappseglingar och – såklart – hur vi blir fler som kappseglar om onsdagarna!
@@ -25,3 +25,6 @@ Hoppas vi ses där - nya som gamla kappseglare!
 
 Med vänliga hälsningar,
 Styrelsen, Lagunens Kappseglingsklubb
+
+
+** Notera den nya dagen, den 13:e **
