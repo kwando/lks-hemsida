@@ -23,7 +23,7 @@ defmodule Hemsida.MixProject do
   defp deps do
     [
       {:nimble_publisher, "~> 1.1"},
-      {:phoenix_live_view, "~> 0.20.4"},
+      {:phoenix_live_view, "~> 1.0.4"},
       {:tailwind, "~> 0.2.2"},
       {:esbuild, "~> 0.8.1"}
     ]
