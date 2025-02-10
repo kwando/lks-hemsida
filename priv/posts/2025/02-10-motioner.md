@@ -5,7 +5,7 @@ author: "Hannes Nevalainen"
 
 ---
 
-# Mmotioner till årsmötet
+# Motioner till årsmötet
 
 Årets årsmöte närmar sig och det är dags att skicka in motioner. Har du något du vill ta upp på årsmötet? Skicka in din motion till styrelsen _innan_ den 26/2 mars så att vi hinner behandla den.
 
