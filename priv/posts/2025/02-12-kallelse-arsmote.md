@@ -14,3 +14,7 @@ Vi kommer hålla till i Lagunens lokaler på Vaktgatan 9, 216 44 Malmö.
 
 Erforderliga dokument inför stämman kommer att publiceras senast den 19:e Mars på Lagunen
 Kappseglingsklubb hemsida samt hängas upp på klubbhusets allmänna anslagstavla.
+
+#### Årsmöteshandlingar (fler dokument kommer)
+
+- [Verksamhetsberättelse](https://drive.google.com/file/d/13dw5T8vXKgfM8oNH1Oxjxj7zZjBRmrIN/view?usp=share_link)
