@@ -18,3 +18,4 @@ Kappseglingsklubb hemsida samt hängas upp på klubbhusets allmänna anslagstavl
 #### Årsmöteshandlingar (fler dokument kommer)
 
 - [Verksamhetsberättelse](https://drive.google.com/file/d/13dw5T8vXKgfM8oNH1Oxjxj7zZjBRmrIN/view?usp=share_link)
+- [Revisionsberättelse](https://drive.google.com/file/d/1QtSDdyfdGvtS4Gf4AK2uRir5GtCUXx_w/view?usp=sharing)
