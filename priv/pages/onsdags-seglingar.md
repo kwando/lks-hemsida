@@ -38,6 +38,6 @@ Har du några frågor eller undrar över något kontakta då lagunenkappseglings
 - [Torntjänstutbildning](/kontakt.html)
 - [Handbok för automatisk startutrustning](/handbok-for-lagunens-automatiska-startutrustning.html)
 - [Resultat 2023](https://lagunen-kappsegling.s3.nl-ams.scw.cloud/resultat-2023.htm)
-- [Resultat 2024 Höstcupen](https://lks.fly.dev)
+- [Resultat 2024 Höstcupen](/resultat/2024-höstcupen.html)
 - [Resultat 2024 Onsdagscupen](/resultat/2024-onsdagscupen.html)
 - [Seglingsföreskrifter (2023)](https://lagunen-kappsegling.s3.nl-ams.scw.cloud/Seglingsf%C3%B6reskrifter-2023.pdf)
