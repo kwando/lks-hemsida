@@ -1,4 +1,4 @@
-dev:
+watch:
   find . | entr -s "mix site.build"
 
 serve:
@@ -12,3 +12,6 @@ clean:
 
 deploy: build
   fly deploy
+
+dev:
+  mprocs "just watch" "just serve"
