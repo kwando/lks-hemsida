@@ -5,7 +5,7 @@ defmodule Hemsida.Renderer do
 
   def post(assigns) do
     ~H"""
-    <.layout title={@post.title} url={@post.output_path}>
+    <.layout title={@post.title} url={@post.output_path} build_timestamp={@build_timestamp}>
       <div class="container-reading py-8">
         <.full_article post={@post} />
       </div>

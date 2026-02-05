@@ -21,14 +21,21 @@ defmodule Hemsida do
     |> Enum.take(5)
   end
 
+  # Generate a build timestamp for CSS cache busting
+  def build_timestamp() do
+    DateTime.utc_now() |> DateTime.to_unix()
+  end
+
   @output_dir "./output"
   def build() do
     File.mkdir_p!(@output_dir)
+    timestamp = build_timestamp()
 
     render_file(
       "index.html",
       Hemsida.Renderer.index(%{
-        posts: latest_posts()
+        posts: latest_posts(),
+        build_timestamp: timestamp
       })
     )
 
@@ -39,10 +46,13 @@ defmodule Hemsida do
         File.mkdir_p!(Path.join([@output_dir, dir]))
       end
 
-      render_file(post.output_path, Hemsida.Renderer.post(%{post: post}))
+      render_file(
+        post.output_path,
+        Hemsida.Renderer.post(%{post: post, build_timestamp: timestamp})
+      )
     end
 
-    build_pages()
+    build_pages(timestamp)
     copy_assets()
   end
 
@@ -54,7 +64,7 @@ defmodule Hemsida do
     @pages
   end
 
-  defp build_pages() do
+  defp build_pages(timestamp) do
     for page <- pages() do
       IO.puts("building #{page.output_path}")
       dir = Path.dirname(page.output_path)
@@ -63,7 +73,10 @@ defmodule Hemsida do
         File.mkdir_p!(Path.join([@output_dir, dir]))
       end
 
-      render_file(page.output_path, Hemsida.Renderer.page(%{page: page}))
+      render_file(
+        page.output_path,
+        Hemsida.Renderer.page(%{page: page, build_timestamp: timestamp})
+      )
     end
   end
 
