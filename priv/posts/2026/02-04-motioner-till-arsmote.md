@@ -1,5 +1,5 @@
 %{
-title: "Kallelse till årsstämma 2025",
+title: "Motioner till årsstämman 2025",
 author: "Hannes Nevalainen"
 }
 
