@@ -1,22 +1,47 @@
-<html class="bg-slate-100 text-slate-900">
+<html lang="sv" class="bg-slate-50 text-slate-900">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Lagunens Kappseglingsklubb - Segling och kappsegling i Malmö">
   <title><%= assigns[:title] %> - Lagunens Kappseglingsklubb</title>
   <link rel="stylesheet" href="/assets/app.css" />
 </head>
-<body class="flex flex-col h-full justify-items-stretch items-stretch">
-  <header class="bg-sky-800 text-sky-100 mb-8 sticky top-0">
+<body class="flex flex-col min-h-screen antialiased">
+  <header class="bg-ocean-900 text-white shadow-lg sticky top-0 z-50">
     <.navbar url={@url} />
   </header>
-  <main class="grow">
-    <div class="container mx-auto px-4">
-      <%= render_slot @inner_block %>
-    </div>
+  
+  <main class="flex-grow">
+    <%= render_slot @inner_block %>
   </main>
-  <footer class="bg-slate-900 text-slate-600 p-4">
-    <div class="container mx-auto text-center">
-      Lagunens kappseglingklubb &copy; 2024
+  
+  <footer class="bg-slate-900 text-slate-400 py-12 mt-auto">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+          <h3 class="text-white font-bold text-lg mb-4">Lagunens Kappseglingsklubb</h3>
+          <p class="text-sm leading-relaxed">En segelförening i Malmö som arrangerar kappseglingar och sociala aktiviteter för seglingsintresserade.</p>
+        </div>
+        <div>
+          <h3 class="text-white font-bold text-lg mb-4">Snabblänkar</h3>
+          <ul class="space-y-2 text-sm">
+            <li><a href="/" class="footer-link hover:text-ocean-400">Hem</a></li>
+            <li><a href="/onsdags-seglingar.html" class="footer-link hover:text-ocean-400">Onsdagsseglingar</a></li>
+            <li><a href="/medlemskap.html" class="footer-link hover:text-ocean-400">Medlemskap</a></li>
+            <li><a href="/kontakt.html" class="footer-link hover:text-ocean-400">Kontakt</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-white font-bold text-lg mb-4">Kontakt</h3>
+          <ul class="space-y-2 text-sm">
+            <li>Vaktgatan 9, 216 44 Malmö</li>
+            <li><a href="mailto:info@lagunen.se" class="footer-link hover:text-ocean-400">info@lagunen.se</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-slate-800 mt-8 pt-8 text-center text-sm">
+        <p>&copy; 2024-2026 Lagunens Kappseglingsklubb. Alla rättigheter förbehållna.</p>
+      </div>
     </div>
   </footer>
 </body>

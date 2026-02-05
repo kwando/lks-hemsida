@@ -1,3 +1,30 @@
 <.layout title={@page.title} url={Path.basename(@page.output_path, ".html")}>
-  <article class="prose"><%= {:safe, @page.content} %></article>
+  <!-- Page Header -->
+  <div class="bg-gradient-to-br from-ocean-800 to-ocean-900 text-white">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+      <div class="max-w-4xl">
+        <!-- Breadcrumb -->
+        <nav class="flex items-center gap-2 text-white/60 text-sm mb-4">
+          <a href="/" class="hover:text-white transition-colors">Hem</a>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+          <span class="text-white"><%= @page.title %></span>
+        </nav>
+        
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight">
+          <%= @page.title %>
+        </h1>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Page Content -->
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="max-w-4xl mx-auto">
+      <article class="prose-custom bg-white rounded-xl shadow-sm p-8 md:p-12">
+        <%= {:safe, @page.content} %>
+      </article>
+    </div>
+  </div>
 </.layout>

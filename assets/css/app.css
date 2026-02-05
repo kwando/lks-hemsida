@@ -2,11 +2,109 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-@layer components {
-  .navbar-link {
-    @apply block px-4 py-2 font-semibold;
+@layer base {
+  html {
+    scroll-behavior: smooth;
   }
+  
+  body {
+    @apply antialiased;
+  }
+  
+  /* Improved typography defaults */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight;
+  }
+}
+
+@layer components {
+  /* Professional navbar styling */
+  .navbar-link {
+    @apply block px-4 py-2 font-semibold text-white/90 transition-all duration-200 hover:text-white hover:bg-white/10 rounded-md;
+  }
+  
   .navbar-link.active {
-    @apply bg-slate-100 text-black sm:rounded-t;
+    @apply bg-white text-ocean-900;
+  }
+  
+  /* Hero section styling */
+  .hero-section {
+    @apply relative overflow-hidden;
+  }
+  
+  .hero-overlay {
+    @apply absolute inset-0 bg-gradient-to-b from-ocean-900/70 via-ocean-900/50 to-ocean-900/80;
+  }
+  
+  .hero-content {
+    @apply relative z-10;
+  }
+  
+  /* Article card styling */
+  .article-card {
+    @apply bg-white rounded-xl shadow-sm border border-slate-200/60 overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+  }
+  
+  .article-card-content {
+    @apply p-6;
+  }
+  
+  .article-card-title {
+    @apply text-xl font-bold text-slate-900 mb-2 leading-tight hover:text-ocean-700 transition-colors;
+  }
+  
+  .article-card-meta {
+    @apply flex items-center gap-2 text-sm text-slate-500 mt-4;
+  }
+  
+  .article-card-badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-ocean-100 text-ocean-800;
+  }
+  
+  /* Section heading styling */
+  .section-title {
+    @apply text-2xl font-bold text-slate-900 flex items-center gap-3;
+  }
+  
+  .section-title::after {
+    content: '';
+    @apply flex-1 h-px bg-gradient-to-r from-slate-200 to-transparent;
+  }
+  
+  /* Button styling */
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+  
+  .btn-primary {
+    @apply btn bg-ocean-600 text-white hover:bg-ocean-700 focus:ring-ocean-500 shadow-lg shadow-ocean-600/20;
+  }
+  
+  .btn-secondary {
+    @apply btn bg-white text-slate-700 border-2 border-slate-200 hover:border-ocean-300 hover:text-ocean-700 focus:ring-slate-400;
+  }
+  
+  /* Footer styling */
+  .footer-link {
+    @apply text-slate-400 hover:text-white transition-colors duration-200;
+  }
+  
+  /* Prose enhancements */
+  .prose-custom {
+    @apply prose prose-slate prose-lg max-w-none;
+    @apply prose-headings:font-bold prose-headings:tracking-tight;
+    @apply prose-a:text-ocean-600 prose-a:no-underline hover:prose-a:text-ocean-800 hover:prose-a:underline;
+    @apply prose-blockquote:border-l-ocean-500 prose-blockquote:bg-ocean-50 prose-blockquote:py-1 prose-blockquote:px-4 prose-blockquote:rounded-r-lg;
+    @apply prose-img:rounded-xl prose-img:shadow-lg;
+  }
+  
+  /* Page header styling */
+  .page-header {
+    @apply bg-gradient-to-br from-ocean-800 to-ocean-900 text-white py-16 mb-12;
+  }
+  
+  /* Container max width for better reading */
+  .container-reading {
+    @apply max-w-4xl mx-auto px-4 sm:px-6 lg:px-8;
   }
 }

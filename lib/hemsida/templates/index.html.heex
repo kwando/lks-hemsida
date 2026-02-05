@@ -1,10 +1,105 @@
+<.layout title="Startsidan" url="/">
+  <!-- Hero Section -->
+  <section class="relative h-[60vh] min-h-[400px] max-h-[600px] flex items-center justify-center overflow-hidden">
+    <!-- Background Image -->
+    <div class="absolute inset-0">
+      <img src="/images/DJI_0293.jpeg" alt="Segling på Lagunen" class="w-full h-full object-cover" />
+      <div class="absolute inset-0 bg-gradient-to-b from-ocean-900/60 via-ocean-900/40 to-ocean-900/80"></div>
+    </div>
 
-<.layout title="Startidan" url="/" >
-  <.page_title>Välkommen till Lagunens kappseglingsklubb</.page_title>
-  <img src="/images/DJI_0293.jpeg" class="my-4 w-full rounded-xl object-contain h-max-2" />
+    <!-- Hero Content -->
+    <div class="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+      <div class="animate-fade-in">
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-6 drop-shadow-lg">
+          Välkommen till<br/>
+          <span class="text-ocean-200">Lagunens Kappseglingsklubb</span>
+        </h1>
+        <p class="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto mb-8 drop-shadow">
+          En gemenskap för seglingsintresserade i Malmö. Vi arrangerar kappseglingar, sociala aktiviteter och främjar segelsporten i Öresund.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="/onsdags-seglingar.html" class="btn-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+            Onsdagsseglingar
+          </a>
+          <a href="/medlemskap.html" class="btn-secondary">
+            Bli medlem
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
 
-  <h2 class="my-2 text-lg font-semibold">Nyheter</h2>
-  <div class="mb-16">
-    <.article :for={post <- @posts} post={post} />
-  </div>
+    <!-- Scroll indicator -->
+    <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white/60" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+      </svg>
+    </div>
+  </section>
+
+  <!-- News Section -->
+  <section class="py-16 bg-slate-50">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between mb-10">
+        <h2 class="section-title text-3xl">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-ocean-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+          </svg>
+          Senaste nyheter
+        </h2>
+        <a href="/" class="text-ocean-600 hover:text-ocean-800 font-semibold text-sm flex items-center gap-1 transition-colors">
+          Visa alla
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+
+      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <.article :for={post <- @posts} post={post} />
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Info Section -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="text-center p-6 rounded-xl bg-slate-50 hover:bg-ocean-50 transition-colors group">
+          <div class="w-14 h-14 mx-auto mb-4 bg-ocean-100 rounded-full flex items-center justify-center group-hover:bg-ocean-200 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-ocean-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <h3 class="font-bold text-lg mb-2 text-slate-900">Onsdagsseglingar</h3>
+          <p class="text-slate-600 text-sm">Kappsegling varje onsdagkväll under säsongen. Alla är välkomna att delta!</p>
+        </div>
+
+        <div class="text-center p-6 rounded-xl bg-slate-50 hover:bg-ocean-50 transition-colors group">
+          <div class="w-14 h-14 mx-auto mb-4 bg-ocean-100 rounded-full flex items-center justify-center group-hover:bg-ocean-200 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-ocean-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0z" />
+            </svg>
+          </div>
+          <h3 class="font-bold text-lg mb-2 text-slate-900">Gemenskap</h3>
+          <p class="text-slate-600 text-sm">Träffa andra seglingsintresserade och bli en del av vår aktiva förening.</p>
+        </div>
+
+        <div class="text-center p-6 rounded-xl bg-slate-50 hover:bg-ocean-50 transition-colors group">
+          <div class="w-14 h-14 mx-auto mb-4 bg-ocean-100 rounded-full flex items-center justify-center group-hover:bg-ocean-200 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-ocean-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+            </svg>
+          </div>
+          <h3 class="font-bold text-lg mb-2 text-slate-900">Tävlingar</h3>
+          <p class="text-slate-600 text-sm">Vi arrangerar regattor och kappseglingar för olika båtklasser.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 </.layout>
