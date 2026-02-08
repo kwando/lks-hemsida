@@ -1,5 +1,5 @@
 %{
-title: "Motioner till årsstämman 2025",
+title: "Motioner till årsstämman 2026",
 author: "Hannes Nevalainen"
 }
 
