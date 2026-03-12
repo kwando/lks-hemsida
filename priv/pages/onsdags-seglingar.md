@@ -21,9 +21,9 @@ identifiera dig eller båten. Är du inte anmäld kommer du inte att få ett res
 För att delta i våra klubbseglingar behöver du anmäla dig i förväg.
 Om du vill prova på segling kan du delta i två deltagarseglingar innan du behöver betala anmälningsavgiften på 300 kr. Om avgiften inte betalas, tas du bort från resultatlistan.
 
-Har du några frågor eller undrar över något kontakta då lagunenkappseglingsklubb@gmail.com eller någon i klubbens styrelse.
+Anmälan till årets kappseglingar görs till lagunenkappseglingsklubb@gmail.com, ange ditt namn och båtnamn i mailet.
 
-[Anmälan till årets klubbseglingar](https://docs.google.com/forms/d/e/1FAIpQLSdjKvJJwCLgXbDQSyAxUbnxEjjhQEEQFNIaygh6Suv9Uipkpw/viewform)
+Har du några frågor eller undrar över något kontakta då lagunenkappseglingsklubb@gmail.com eller någon i klubbens styrelse.
 
 ### Länkar
 
